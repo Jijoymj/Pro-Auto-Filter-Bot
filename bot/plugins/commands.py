@@ -91,8 +91,6 @@ async def start(bot, update):
     buttons = [[
         InlineKeyboardButton('👨‍💼 𝙼𝚊𝚜𝚝𝚎𝚛', url='https://t.me/mohithmahesh'),
         InlineKeyboardButton('𝙷𝚎𝚕𝚙 🤔', callback_data="help")
-    ],[
-        InlineKeyboardButton('🗣️ 𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/sbbotzz'),)
    ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -132,7 +130,6 @@ async def about(bot, update):
     buttons = [[
         InlineKeyboardButton('👤 @mohithmahesh 👤', url='https://t.me/mohithmahesh')
     ],[
-        InlineKeyboardButton('🏠 𝙷𝚘𝚖𝚎', callback_data='start'),
         InlineKeyboardButton('𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
