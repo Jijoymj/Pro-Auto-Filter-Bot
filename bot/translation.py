@@ -44,7 +44,7 @@ class Translation(object):
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-<b><a href="https://t.me/mohithmahesh</a></b>
+@mohithmahesh
 """
     
     ABOUT_TEXT = """<b>➥ 📃Name</b> : <b>Pro Auto Filter Bot</b>
